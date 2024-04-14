@@ -1,0 +1,76 @@
+
+nav a {
+    text-decoration: none;
+    /* Remove underlines from links */
+    color: blue;
+    /* Set link text color */
+    font-weight: bold;
+    /* Make link text bold */
+  }
+  
+  /* Style the navigation bar background and spacing */
+  nav {
+    background-color: #000000;
+    /* Set background color */
+    padding: 10px 0;
+    /* Add padding above and below the navigation bar */
+  }
+  
+  /* Change link color on hover */
+  nav a:hover {
+    color: #5c5c5c;
+  } */
+  .navbar {
+  background-color: white;
+  display: flex; /* Center the navbar horizontally */
+  justify-content: space-between; /* Center the items horizontally */
+  margin-right: 10px;
+  }
+  
+  
+  /* Navbar links */
+  .navbar a {
+  font-size: 16px;
+  color:darkblue;
+  text-align: center;
+  padding: 20px 35px;
+  text-decoration:none;
+  }
+  
+  /* On hover, the links will change color */
+  .navbar a:hover {
+  background-color: gold;
+  color: black;
+  }
+  .colored-heading {
+  color:darkblue; /* Replace with your desired color code (e.g., red) */
+  }
+  .navbar {
+  background-color:#333;
+  padding: 10px;
+  display: flex; /* Use flexbox for layout */
+  align-items: center; /* Vertically center content */
+  margin-right: 10px;
+  }
+  
+  .navbar img {
+  /* width: 100px; */
+  height: auto;
+  margin-right: 300px; /* Add spacing to the right of the image */
+  }
+  
+  .navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 10;
+  }
+  
+  .navbar li {
+  display: inline;
+  margin-right: 50px;
+  }
+  
+  .navbar a {
+  text-decoration: none;
+  color: white;
+  }

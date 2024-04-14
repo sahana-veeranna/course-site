@@ -1,0 +1,222 @@
+/* Reset default list styles and remove text decoration from links */
+
+
+.logo {
+    float: left; /* Float the logo to the left */
+    margin-left: 20px; /* Add margin to separate the logo from the links */
+}
+.img {
+    text-align: center; /* Center-align the image within the container */
+   
+}
+
+.img img{
+    width: 100%;
+    height: 400px;
+}
+.text-overlay {
+    position: absolute; /* Position the text absolutely within the container */
+    top: 35%; /* Position the text vertically in the middle */
+    left: 50%; /* Position the text horizontally in the middle */
+    transform: translate(-50%, -50%); /* Center the text precisely */
+    background-color: #b4afaf;
+    color: #f7f3f3; /* Text color */
+    padding: 10px; /* Add padding around the text */
+    text-align: center; /* Center-align the text */
+}
+.text-overlay h1 {
+    margin: 0; /* Remove default margin */
+    font-size: 50px; /* Adjust font size */
+    font-style: oblique;
+}
+.text-overlay1 {
+    position: absolute; /* Position the text absolutely within the container */
+    top: 50%; /* Position the text vertically in the middle */
+    left: 50%; /* Position the text horizontally in the middle */
+    transform: translate(-50%, -50%); /* Center the text precisely */
+    background: #ccc;
+    color: #f9f2f2; /* Text color */
+    padding: 2px;
+    margin-bottom: 2%;
+    text-align: center; /* Center-align the text */
+}
+
+.text-overlay1 p{
+    font-size: 30px;
+    font-style: normal;
+
+}
+.text { 
+  padding: 10px; /* Add padding around the content */
+  /* width: 740px; */
+  height: 180px;
+  margin-top: 2px;
+  margin-left: 38px;
+  margin-bottom: 10px;
+  font-size: 10px;
+  
+ } 
+.text h3{
+  margin-top: 60px;
+  text-align: center;
+  color: rgb(120, 4, 4);
+  font-style:normal;
+  font-size: 20x;
+  
+}
+.text h1{
+  text-align: center;
+  font-size: 40x;
+  margin-top: -1%;
+  color: rgb(38, 2, 80);
+  
+}
+ #map {
+  width: 100%;
+  height: 400px;
+  
+}
+
+footer {
+    background-color: #b4afaf;
+    color: #0d02a0;
+    font-style: normal;
+    /* text-align: center;
+    padding: 10vw;
+     /* width: 1800px;   */
+    height: 200px; 
+}
+  
+    .footer-container { 
+    /* display:grid; */
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 18px;
+    padding-bottom: 18px;
+  } 
+  .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    
+  }
+  .footer-container a{
+    color: #000000;
+   
+  }
+ 
+  .footer-social {
+    flex: 1;
+    text-align: center;
+  }
+  
+
+  
+  .footer-social  li {
+    margin-right: 10px;
+    list-style: none;
+  }
+  
+
+  .footer-social h3{
+    font-size: 20px;
+  }
+  *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   
+  }
+  .container{
+    width: 1000px!important;
+  }
+  p{
+    font-size: 12px;
+  }
+  h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif!important;
+  }
+  .bg-success{
+    background-color: #e6ebe7 !important;
+    font-family:Verdana, Geneva, Tahoma, sans-serif!important;
+  
+  }
+  .form-control {
+    height: 36px;
+    background: #fff;
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 14px;
+    border-radius: 2px;
+    box-shadow: none !important;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+  }
+  .contactForm .form-control {
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 0;
+  }
+  
+  
+  .form-control:focus,.form-control:active {
+    border-color: #eaf0ee !important;
+  }
+  .form-label {
+    color: #000;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    
+   
+  }
+  .btn.btn-success {
+    background: #018213 !important;
+    border-color: #f1f7f5 !important;
+    color: #fff3f3;
+    width: 100px;
+    border-radius: 0!important;
+    
+    
+    
+   
+    
+  }
+  .btn.btn-success:hover{
+    background-color: #0f0f0f!important;
+  }
+  
+  .bi{
+    font-size: 50px;
+  }
+  @media only screen and (max-width: 600px) {
+    .container{
+        width: 100%!important;
+        padding-bottom: 207px!important;
+    }
+  }
+  body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .bg-success h3{
+    text-align: left;
+    padding: 0%;
+    
+  }
+  footer1{
+    background-color: #333; /* Background color for the footer */
+    color:red; /* Text color for the copyright notice */
+    text-align: center; /* Center-align the text */
+    padding: 10px; /* Add some padding for spacing */
+  }
+  
+  /* Style the copyright notice text */
+  footer1 p {
+    margin: 0; /* Remove default margin */
+    font-size: 14px; /* Adjust the font size as needed */
+  }
+
+

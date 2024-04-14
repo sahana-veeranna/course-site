@@ -1,0 +1,291 @@
+/* Reset default list styles and remove text decoration from links */
+nav ul {
+    list-style: none;
+    padding: 10;
+    margin: 05;
+    align-items: center;
+}
+
+nav li {
+    display: inline; /* Display list items horizontally */
+    margin-right: 50px; /* Add spacing between list items */
+  
+}
+
+nav a {
+    text-decoration: none; /* Remove underlines from links */
+    color: #fffefe; /* Set link text color */
+    font-weight: bold; /* Make link text bold */
+}
+
+/* Style the navigation bar background and spacing */
+nav {
+    background-color: #000000; /* Set background color */
+    padding: 10px 0; /* Add padding above and below the navigation bar */
+}
+
+/* Change link color on hover */
+nav a:hover {
+    color: #5c5c5c;
+}
+    
+.img {
+    text-align: center; /* Center-align the image within the container */
+   
+}
+
+.img img{
+    width: 100%;
+    height: 400px;
+}
+.text-overlay {
+    position: absolute; /* Position the text absolutely within the container */
+    top: 40%; /* Position the text vertically in the middle */
+    left: 50%; /* Position the text horizontally in the middle */
+    transform: translate(-50%, -50%); /* Center the text precisely */
+    background-color: #b4afaf;
+    color: #000000; /* Text color */
+    padding: 10px; /* Add padding around the text */
+    text-align: center; /* Center-align the te
+}
+.text-overlay h1 {
+    margin: 0; /* Remove default margin */
+    font-size: 50px; /* Adjust font size */
+    font-style: oblique;
+}
+.text-overlay1 {
+    position: absolute; /* Position the text absolutely within the container */
+    top: 60%; /* Position the text vertically in the middle */
+    left: 50%; /* Position the text horizontally in the middle */
+    transform: translate(-50%, -50%); /* Center the text precisely */
+    color: #fffcfc; /* Text color */
+    padding: 2px;
+    margin-bottom: 2%;
+    text-align: center; /* Center-align the text */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.text-overlay1 p{
+    font-size: 30px;
+    font-style: normal;
+
+}
+
+.img1{
+    margin-left: 20px;
+  
+}
+div{
+    display: block;
+}
+.img1 img{
+    width: 800px;
+    height: 500px;
+    
+}
+.img2{
+    margin-left: 20px;
+    border: 1px solid #bcb7b7;
+}
+
+.img2 img{
+    width: 300px;
+    height: 200px;
+    
+    
+}
+.text {
+    border: 1px solid #bcb7b7;
+    padding: 10px; /* Add padding around the content */
+    /* width: 740px; */
+    height: 180px;
+    margin-top: 2px;
+    margin-left: 38px;
+    margin-bottom: 10px;
+    display: grid;
+    
+}
+.categories{
+    font-size: large;
+    font-style: normal;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 1px solid #bcb7b7;
+    padding: 8px; /* Add padding around the content */
+    /* width: 740px; */
+    height: 300px;
+    margin-top: 10px;
+    margin-left: 38px;
+    margin-bottom: 10px;
+    display: grid;
+
+}
+.text h1{
+    font-size: 35px;
+    text-align: left;
+    margin-top: 0%;
+    margin-left: 10px;
+    font-style: normal;
+    font-weight: bolder;
+    color: #030560;
+    
+}
+.text button{
+    background-color: #000000; 
+    color: #fffefe; /* White text color */
+    padding: 5px 20px; /* Padding around the button text */
+    border: 1px solid #000000;
+    border-color: #000000;
+    cursor: pointer; /* Show a pointer cursor on hover */
+    font-size: 10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.text p{
+     font-size: 15px;
+     margin-left: 10px;
+     margin-top: 0%;    
+}
+.text p1{
+    color: #f0510d;
+}
+
+.price{
+    display:flex;
+    padding: 10px; /* Add padding around the content */
+    
+}
+
+.price1{
+    font-size: 40px; 
+    font-weight: bold; 
+    font-style:normal;
+    color: rgb(41, 2, 73); 
+    margin-right: 20px;
+}
+.price2{
+    text-decoration: line-through;
+    font-size: 25px;
+    font-style:normal;
+    color: rgb(88, 85, 85); 
+}
+.button{
+    display:grid;
+}
+.add-to-cart {
+    background-color: #ffffff; 
+    color: #000000; /* White text color */
+    padding: 5px 100px; /* Padding around the button text */
+    margin-bottom: 20px;
+    border: 1px solid #000000;
+    border-color: #000000;
+    cursor: pointer; /* Show a pointer cursor on hover */
+    margin-right: 10px; /* Add some space between buttons */
+    font-size: 15px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* Style for "Buy Now" button */
+.buy-now {
+    background-color: #000000; 
+    color: #f9f7f7; /* White text color */
+    padding: 5px 100px; /* Padding around the button text */
+    border: 1px solid #000000;
+    border-color: #000000;
+    cursor: pointer; /* Show a pointer cursor on hover */
+    font-size: 15px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+ .grid{
+    
+    grid-gap: 2px;
+    display: flex;
+    /* width: 100px; */
+    
+    
+ }
+ .grid1{
+    grid-gap: 2px;
+    display: inline; 
+ }
+ 
+ footer {
+     background-color: #b4afaf;
+    color: #0d02a0;
+    font-style: normal;
+    /* text-align: center; 
+          width: 1800px;        */
+          height: 200px; 
+   
+
+    
+  }
+  
+  .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    
+  }
+  .footer-container a{
+    color: #000000;
+    width: 100%;
+    height: 50%;
+   
+  }
+ 
+  .footer-social {
+    flex: 1;
+    text-align: center;
+  }
+  
+
+  
+  .footer-social  li {
+    margin-right: 10px;
+    list-style: none;
+  }
+  
+
+  .footer-social h3{
+    font-size: 20px;
+    align-items: center;
+  }
+  *{
+    /* padding: 0; */
+    margin: 0;
+    box-sizing: border-box;
+   
+  }
+/* Style for star rating */
+.star-rating {
+    display: flex;
+    margin-top: 0%;
+    margin-left: 330px;
+    
+}
+
+.star-rating input[type="radio"] {
+    display: none;
+}
+
+.star-rating label {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.star-rating label::before {
+    content: '\2605'; /* Unicode character for a star */
+    color:  #ffc400;
+    
+    font-size: 20px;
+}
+
+.star-rating input[type="radio"]:checked + label::before {
+    color: #ff8800; /* Change color for checked stars */
+}
+
+
+ 

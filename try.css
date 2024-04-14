@@ -1,0 +1,225 @@
+.grid-container {
+    display: grid;
+    gap: 10px 30px;
+    grid-template-columns:auto min-content;
+    background-color: #ffffff;
+    padding-left: 30px;
+    padding-right: 30px;
+    
+  
+  }
+  
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 2px solid rgba(0, 0, 0, 0.8);
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+    margin-left: -1px;
+    border-width: 40px;
+    
+  }
+  .grid-item img{
+      width: 700px;
+      height: 280px;
+     
+      
+  }
+  
+    
+.text1 {
+    border: 1px solid #bcb7b7;
+    padding: 10px; /* Add padding around the content */
+    /* width: 740px; */
+    height: 200px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    display: grid;
+    border: 1px solid rgb(54, 53, 53);
+}
+.text {
+    border: 1px solid #bcb7b7;
+    padding: 10px; /* Add padding around the content */
+    /* width: 740px; */
+    height: 200px;
+    margin-top: 2px;
+    margin-bottom: 10px;
+    display: grid;
+    margin-left: 8px;
+    
+}
+
+
+.text h1{
+    /* width: 600px; */
+    font-size: 35px;
+    text-align: left;
+    margin-top: 0%;
+    margin-left: 10px;
+    font-style: normal;
+    font-weight: bolder;
+    color: #030560;
+    
+}
+.text button{
+    background-color: #000000; 
+    color: #fffefe; /* White text color */
+    padding: 5px 20px; /* Padding around the button text */
+    border: 1px solid #000000;
+    border-color: #000000;
+    cursor: pointer; /* Show a pointer cursor on hover */
+    font-size: 10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.text p{
+     font-size: 15px;
+     margin-left: 10px;
+     margin-top: 0%;    
+}
+.text p1{
+    color: #f0510d;
+}
+
+
+.text2 {
+    border: 1px solid #bcb7b7;
+    padding: 10px; /* Add padding around the content */
+    /* width: 740px; */
+    height: 200px;
+    margin-top: -150px;
+    margin-bottom: 10px;
+    display: grid;
+    border: 1px solid rgb(54, 53, 53);
+}
+
+.price1{
+    font-size: 40px; 
+    font-weight: bold; 
+    font-style:normal;
+    color: rgb(41, 2, 73); 
+    margin-right: 20px;
+}
+.price2{
+    text-decoration: line-through;
+    font-size: 25px;
+    font-style:normal;
+    color: rgb(88, 85, 85); 
+}
+.button{
+    display:grid;
+}
+.add-to-cart {
+    background-color: #ffffff; 
+    color: #000000; /* White text color */
+    padding: 5px 100px; /* Padding around the button text */
+    margin-bottom: 20px;
+    border: 1px solid #000000;
+    border-color: #000000;
+    cursor: pointer; /* Show a pointer cursor on hover */
+    margin-right: 10px; /* Add some space between buttons */
+    font-size: 15px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* Style for "Buy Now" button */
+.buy-now {
+    background-color: #000000; 
+    color: #f9f7f7; /* White text color */
+    padding: 5px 100px; /* Padding around the button text */
+    border: 1px solid #000000;
+    border-color: #000000;
+    cursor: pointer; /* Show a pointer cursor on hover */
+    font-size: 15px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+ .grid{
+    
+    grid-gap: 2px;
+    display: flex;
+    /* width: 100px; */
+    
+    
+ }
+ .grid1{
+    grid-gap: 2px;
+    display: inline; 
+ }
+ 
+ .text3 { 
+    border: 1px solid #bcb7b7;
+    padding: 10px; /* Add padding around the content */
+    /* width: 740px; */
+    height: 450px;
+    margin-top: -2px;
+    display: grid;  
+    
+    
+ }
+ .text3 li{
+color: #454444;
+text-align: left;
+font-style: normal;
+font-weight: bolder;
+margin-left: 10px;
+
+
+
+ }
+ 
+ .text3 li1{
+    color: #454444;
+    text-align: left;
+    font-style: normal;
+    font-weight: bolder;
+    margin-left: 10px;
+    
+    
+    
+     }
+
+.text3 h2{
+    color: #030560;
+    font-size: 22px;
+    text-align: left;
+    font-style: normal;
+    font-weight: bolder;
+    margin-left: 10px;
+    margin-bottom: -4px;
+
+}
+.text4{
+    border: 1px solid #625e5e;
+    padding: 10px; /* Add padding around the content */
+    /* width: 740px; */
+    
+    height: 600px;
+    margin-top: -150px;
+    margin-bottom: 100px;
+    display: grid;  
+}
+          
+.grid-container2 {
+    display: grid;
+    column-gap: 0px;
+    grid-template-columns: min-content max-content ;
+    padding: 0px;
+    border-color: #000000;
+   
+  }
+  
+  .grid-item3 {
+    background-color: rgba(248, 243, 243, 0.8);
+    border: 1px solid rgba(234, 231, 231, 0.8);
+    padding: 20px;
+    font-size: 10px;
+    text-align: center;
+    margin-top: -10px;
+  }
+  .text4 h2{
+    color: #030560;
+  }
+  .grid-item3 p{
+    font-size: 10px;
+  }
+  
